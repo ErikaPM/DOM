@@ -1,0 +1,13 @@
+.padre {
+  display: grid;
+}
+
+.cuadricula {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border: black, 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
